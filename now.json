@@ -1,3 +1,12 @@
 {
-    "alias": ["syabany"]
+    "alias": ["syabany"],
+    "version": 1,
+    "name": "my-nextjs-app",
+    "builds":
+        [
+            { 
+                "src": "next.config.js",
+                "use": "@now/next"
+            }
+        ]
 }

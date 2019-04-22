@@ -1,23 +1,25 @@
 {
-  "devFiles": [
-    "static/development/dll/dll_11fbb1faa946535a5071.js"
-  ],
+  "devFiles": [],
   "pages": {
     "/": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
+      "static/runtime/webpack-a79426b5e11f0ba5879d.js",
+      "static/chunks/commons.4ec0467de8d226c98908.js",
+      "static/runtime/main-fd73dbd6f398b7b886ec.js"
     ],
     "/_app": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
+      "static/runtime/webpack-a79426b5e11f0ba5879d.js",
+      "static/chunks/commons.4ec0467de8d226c98908.js",
+      "static/runtime/main-fd73dbd6f398b7b886ec.js"
     ],
     "/_error": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
+      "static/runtime/webpack-a79426b5e11f0ba5879d.js",
+      "static/chunks/commons.4ec0467de8d226c98908.js",
+      "static/runtime/main-fd73dbd6f398b7b886ec.js"
     ],
     "/index": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
+      "static/runtime/webpack-a79426b5e11f0ba5879d.js",
+      "static/chunks/commons.4ec0467de8d226c98908.js",
+      "static/runtime/main-fd73dbd6f398b7b886ec.js"
     ]
   }
 }
