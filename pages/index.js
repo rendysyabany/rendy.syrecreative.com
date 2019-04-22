@@ -6,7 +6,7 @@
 
 const Index = () => (
     <div>
-        <p>Welcome to Next.js!!</p>
+        <p>Ongoing Development</p>
     </div>
 )
 
