@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "2zfy");
+/******/ 	return __webpack_require__(__webpack_require__.s = "Cwk/");
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -972,121 +972,6 @@ exports.f = __webpack_require__("jmDH") ? Object.defineProperty : function defin
   return O;
 };
 
-
-/***/ }),
-
-/***/ "2zfy":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-
-// EXTERNAL MODULE: external "url"
-var external_url_ = __webpack_require__("bzos");
-
-// EXTERNAL MODULE: ./node_modules/next-server/dist/server/render.js
-var render = __webpack_require__("R+7f");
-
-// EXTERNAL MODULE: ./node_modules/next-server/dist/server/send-html.js
-var send_html = __webpack_require__("I8F5");
-
-// EXTERNAL MODULE: ./.next/build-manifest.json
-var build_manifest = __webpack_require__("LZ9C");
-
-// EXTERNAL MODULE: ./.next/react-loadable-manifest.json
-var react_loadable_manifest = __webpack_require__("67Bq");
-
-// EXTERNAL MODULE: ./node_modules/next/dist/pages/_document.js
-var _document = __webpack_require__("VDXt");
-var _document_default = /*#__PURE__*/__webpack_require__.n(_document);
-
-// EXTERNAL MODULE: ./node_modules/next/dist/pages/_error.js
-var _error = __webpack_require__("/a9y");
-var _error_default = /*#__PURE__*/__webpack_require__.n(_error);
-
-// EXTERNAL MODULE: ./node_modules/next/dist/pages/_app.js
-var _app = __webpack_require__("B5Ud");
-var _app_default = /*#__PURE__*/__webpack_require__.n(_app);
-
-// EXTERNAL MODULE: ./node_modules/react/index.js
-var react = __webpack_require__("q1tI");
-var react_default = /*#__PURE__*/__webpack_require__.n(react);
-
-// CONCATENATED MODULE: ./pages/index.js
-
-
-// function Home() {
-//     return <div>Welcome to Next.js!</div>;
-//   }
-//   export default Home;
-var pages_Index = function Index() {
-  return react_default.a.createElement("div", null, react_default.a.createElement("p", null, "Welcome to Next.js!!"));
-};
-
-/* harmony default export */ var pages = (pages_Index);
-// CONCATENATED MODULE: ./node_modules/next/dist/build/webpack/loaders/next-serverless-loader.js?page=%2F&absolutePagePath=private-next-pages%2Findex.js&absoluteAppPath=next%2Fdist%2Fpages%2F_app&absoluteDocumentPath=next%2Fdist%2Fpages%2F_document&absoluteErrorPath=next%2Fdist%2Fpages%2F_error&distDir=private-dot-next&assetPrefix=&generateEtags=true&ampBindInitData=false&dynamicBuildId=false
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return next_serverless_loaderpage_2F_absolutePagePath_private_next_pages_2Findex_js_absoluteAppPath_next_2Fdist_2Fpages_2F_app_absoluteDocumentPath_next_2Fdist_2Fpages_2F_document_absoluteErrorPath_next_2Fdist_2Fpages_2F_error_distDir_private_dot_next_assetPrefix_generateEtags_true_ampBindInitData_false_dynamicBuildId_false_render; });
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    async function renderReqToHTML(req, res) {
-      const options = {
-        App: _app_default.a,
-        Document: _document_default.a,
-        buildManifest: build_manifest,
-        reactLoadableManifest: react_loadable_manifest,
-        buildId: "ET9Bt_lz_7uNpCOa2PIVr",
-        dynamicBuildId: false,
-        assetPrefix: "",
-        ampBindInitData: false
-      }
-      const parsedUrl = Object(external_url_["parse"])(req.url, true)
-      try {
-        
-        const result = await Object(render["renderToHTML"])(req, res, "/", parsedUrl.query, Object.assign(
-          {
-            Component: pages,
-            dataOnly: req.headers && (req.headers.accept || '').indexOf('application/amp.bind+json') !== -1,
-          }, 
-          options, 
-        ))
-        return result
-      } catch (err) {
-        if (err.code === 'ENOENT') {
-          res.statusCode = 404
-          const result = await Object(render["renderToHTML"])(req, res, "/_error", parsedUrl.query, Object.assign({}, options, {
-            Component: _error_default.a
-          }))
-          return result
-        } else {
-          console.error(err)
-          res.statusCode = 500
-          const result = await Object(render["renderToHTML"])(req, res, "/_error", parsedUrl.query, Object.assign({}, options, {
-            Component: _error_default.a,
-            err
-          }))
-          return result
-        }
-      }
-    }
-    async function next_serverless_loaderpage_2F_absolutePagePath_private_next_pages_2Findex_js_absoluteAppPath_next_2Fdist_2Fpages_2F_app_absoluteDocumentPath_next_2Fdist_2Fpages_2F_document_absoluteErrorPath_next_2Fdist_2Fpages_2F_error_distDir_private_dot_next_assetPrefix_generateEtags_true_ampBindInitData_false_dynamicBuildId_false_render (req, res) {
-      try {
-        const html = await renderReqToHTML(req, res)
-        Object(send_html["sendHTML"])(req, res, html, {generateEtags: true})
-      } catch(err) {
-        console.error(err)
-        res.statusCode = 500
-        res.end('Internal Server Error')
-      }
-    }
-  
 
 /***/ }),
 
@@ -2534,6 +2419,121 @@ module.exports = function (original) {
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__("6CmU");
+
+/***/ }),
+
+/***/ "Cwk/":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+
+// EXTERNAL MODULE: external "url"
+var external_url_ = __webpack_require__("bzos");
+
+// EXTERNAL MODULE: ./node_modules/next-server/dist/server/render.js
+var render = __webpack_require__("R+7f");
+
+// EXTERNAL MODULE: ./node_modules/next-server/dist/server/send-html.js
+var send_html = __webpack_require__("I8F5");
+
+// EXTERNAL MODULE: ./.next/build-manifest.json
+var build_manifest = __webpack_require__("LZ9C");
+
+// EXTERNAL MODULE: ./.next/react-loadable-manifest.json
+var react_loadable_manifest = __webpack_require__("67Bq");
+
+// EXTERNAL MODULE: ./node_modules/next/dist/pages/_document.js
+var _document = __webpack_require__("VDXt");
+var _document_default = /*#__PURE__*/__webpack_require__.n(_document);
+
+// EXTERNAL MODULE: ./node_modules/next/dist/pages/_error.js
+var _error = __webpack_require__("/a9y");
+var _error_default = /*#__PURE__*/__webpack_require__.n(_error);
+
+// EXTERNAL MODULE: ./node_modules/next/dist/pages/_app.js
+var _app = __webpack_require__("B5Ud");
+var _app_default = /*#__PURE__*/__webpack_require__.n(_app);
+
+// EXTERNAL MODULE: ./node_modules/react/index.js
+var react = __webpack_require__("q1tI");
+var react_default = /*#__PURE__*/__webpack_require__.n(react);
+
+// CONCATENATED MODULE: ./pages/index.js
+
+
+// function Home() {
+//     return <div>Welcome to Next.js!</div>;
+//   }
+//   export default Home;
+var pages_Index = function Index() {
+  return react_default.a.createElement("div", null, react_default.a.createElement("p", null, "Ongoing Development"));
+};
+
+/* harmony default export */ var pages = (pages_Index);
+// CONCATENATED MODULE: ./node_modules/next/dist/build/webpack/loaders/next-serverless-loader.js?page=%2F&absolutePagePath=private-next-pages%2Findex.js&absoluteAppPath=next%2Fdist%2Fpages%2F_app&absoluteDocumentPath=next%2Fdist%2Fpages%2F_document&absoluteErrorPath=next%2Fdist%2Fpages%2F_error&distDir=private-dot-next&assetPrefix=https%3A%2F%2Fgithub.com%2Frendysyabany%2Frendy.syrecreative.com.git&generateEtags=true&ampBindInitData=false&dynamicBuildId=false
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return next_serverless_loaderpage_2F_absolutePagePath_private_next_pages_2Findex_js_absoluteAppPath_next_2Fdist_2Fpages_2F_app_absoluteDocumentPath_next_2Fdist_2Fpages_2F_document_absoluteErrorPath_next_2Fdist_2Fpages_2F_error_distDir_private_dot_next_assetPrefix_https_3A_2F_2Fgithub_com_2Frendysyabany_2Frendy_syrecreative_com_git_generateEtags_true_ampBindInitData_false_dynamicBuildId_false_render; });
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    async function renderReqToHTML(req, res) {
+      const options = {
+        App: _app_default.a,
+        Document: _document_default.a,
+        buildManifest: build_manifest,
+        reactLoadableManifest: react_loadable_manifest,
+        buildId: "LbZRsNdd9bMMy_22PulmG",
+        dynamicBuildId: false,
+        assetPrefix: "https://github.com/rendysyabany/rendy.syrecreative.com.git",
+        ampBindInitData: false
+      }
+      const parsedUrl = Object(external_url_["parse"])(req.url, true)
+      try {
+        
+        const result = await Object(render["renderToHTML"])(req, res, "/", parsedUrl.query, Object.assign(
+          {
+            Component: pages,
+            dataOnly: req.headers && (req.headers.accept || '').indexOf('application/amp.bind+json') !== -1,
+          }, 
+          options, 
+        ))
+        return result
+      } catch (err) {
+        if (err.code === 'ENOENT') {
+          res.statusCode = 404
+          const result = await Object(render["renderToHTML"])(req, res, "/_error", parsedUrl.query, Object.assign({}, options, {
+            Component: _error_default.a
+          }))
+          return result
+        } else {
+          console.error(err)
+          res.statusCode = 500
+          const result = await Object(render["renderToHTML"])(req, res, "/_error", parsedUrl.query, Object.assign({}, options, {
+            Component: _error_default.a,
+            err
+          }))
+          return result
+        }
+      }
+    }
+    async function next_serverless_loaderpage_2F_absolutePagePath_private_next_pages_2Findex_js_absoluteAppPath_next_2Fdist_2Fpages_2F_app_absoluteDocumentPath_next_2Fdist_2Fpages_2F_document_absoluteErrorPath_next_2Fdist_2Fpages_2F_error_distDir_private_dot_next_assetPrefix_https_3A_2F_2Fgithub_com_2Frendysyabany_2Frendy_syrecreative_com_git_generateEtags_true_ampBindInitData_false_dynamicBuildId_false_render (req, res) {
+      try {
+        const html = await renderReqToHTML(req, res)
+        Object(send_html["sendHTML"])(req, res, html, {generateEtags: true})
+      } catch(err) {
+        console.error(err)
+        res.statusCode = 500
+        res.end('Internal Server Error')
+      }
+    }
+  
 
 /***/ }),
 
