@@ -1,0 +1,12 @@
+{
+    "alias": ["syabany"],
+    "version": 2,
+    "name": "rendy.syrecreative.com",
+    "builds":
+        [
+            { 
+                "src": "next.config.js",
+                "use": "@now/next"
+            }
+        ]
+}
